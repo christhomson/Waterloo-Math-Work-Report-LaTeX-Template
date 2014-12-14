@@ -7,6 +7,7 @@
 \usepackage{listings}
 \usepackage{color}
 \usepackage[hmargin=1in,vmargin=1in]{geometry}
+\usepackage{scrpage2}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%       Formatting     %%%
@@ -16,6 +17,12 @@
 \setlength{\parindent}{0pt}
 \setlength{\cftsecnumwidth}{25pt}
 \setlength{\parskip}{1em}
+
+% Right-justified page numbers
+\ifoot[]{}
+\cfoot[]{}
+\ofoot[\pagemark]{\pagemark}
+\pagestyle{scrplain}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% TEMPLATE DEFINITIONS %%%
