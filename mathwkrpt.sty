@@ -8,6 +8,7 @@
 \usepackage{color}
 \usepackage[hmargin=1in,vmargin=1in]{geometry}
 \usepackage{scrpage2}
+\usepackage{tocloft}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%       Formatting     %%%
@@ -58,6 +59,9 @@
   \end{singlespace}
 }
 
+
+\renewcommand\cftsecfont{\mdseries}
+\renewcommand\cftsecpagefont{\mdseries}
 \newcommand{\dotableofcontents}
 {
 \tableofcontents
